@@ -2,122 +2,121 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Nimbus CRM</title>
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f8fa;
-    color: #2c3e50;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    align-items: center;
-  }
-  header {
-    text-align: center;
-    padding: 3rem 1rem 2rem;
-    background: linear-gradient(135deg, #4a90e2, #50c9c3);
-    color: white;
-    width: 100%;
-  }
-  header h1 {
-    font-size: 3rem;
-    margin: 0 0 0.25rem;
-    font-weight: 700;
-  }
-  header p {
-    font-size: 1.25rem;
-    margin: 0;
-    font-weight: 300;
-    letter-spacing: 0.05em;
-  }
-  main {
-    flex-grow: 1;
-    width: 100%;
-    max-width: 960px;
-    padding: 2rem 1rem 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  button {
-    background-color: #50c9c3;
-    border: none;
-    color: white;
-    font-weight: 600;
-    font-size: 1.125rem;
-    padding: 0.75rem 2rem;
-    border-radius: 30px;
-    cursor: pointer;
-    margin: 2rem 0 3rem;
-    transition: background-color 0.3s ease;
-  }
-  button:hover,
-  button:focus {
-    background-color: #3dabaa;
-    outline: none;
-  }
-  .cards {
-    display: flex;
-    gap: 1.75rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-  .card {
-    background: white;
-    flex: 1 1 220px;
-    max-width: 280px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgb(0 0 0 / 0.08);
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: #34495e;
-    user-select: none;
-    text-align: center;
-    transition: box-shadow 0.3s ease;
-  }
-  .card:hover,
-  .card:focus-within {
-    box-shadow: 0 12px 30px rgb(0 0 0 / 0.12);
-  }
-  footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    width: 100%;
-    text-align: center;
-    padding: 1.25rem 1rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlasCRM - Gestiona tus Clientes con Facilidad</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-  <h1>Nimbus CRM</h1>
-  <p>Gestión inteligente para tu negocio</p>
-</header>
-<main>
-  <button type="button">Solicita una demo</button>
-  <section class="cards" aria-label="Beneficios principales">
-    <article class="card" tabindex="0">Seguimiento</article>
-    <article class="card" tabindex="0">Automatización</article>
-    <article class="card" tabindex="0">Reportes</article>
-  </section>
-</main>
-<footer>
-  © 2025 Nimbus CRM
-</footer>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="AtlasCRM Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="login.html" class="btn btn-primary">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Optimiza la Gestión de Clientes con AtlasCRM</h1>
+            <p>La solución perfecta para pequeñas y medianas empresas que buscan eficiencia y crecimiento.</p>
+            <a href="#" class="btn btn-secondary">Probar gratis</a>
+            <img src="assets/images/banner.png" alt="Banner AtlasCRM" class="hero-image">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Nuestras Características Clave</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="assets/icons/icon-gestion.svg" alt="Icono Gestión">
+                    <h3>Gestión de Contactos</h3>
+                    <p>Organiza y accede rápidamente a toda la información de tus clientes en un solo lugar.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="assets/icons/icon-reportes.svg" alt="Icono Reportes">
+                    <h3>Reportes Personalizados</h3>
+                    <p>Obtén análisis detallados y toma decisiones estratégicas con informes a medida.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="assets/icons/icon-colaboracion.svg" alt="Icono Colaboración">
+                    <h3>Colaboración en Equipo</h3>
+                    <p>Trabaja en conjunto con tu equipo, comparte información y mejora la productividad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <img src="assets/images/user1.png" alt="Foto de Usuario 1">
+                    <p>"AtlasCRM ha transformado la forma en que gestionamos nuestras relaciones con los clientes. ¡Increíblemente intuitivo!"</p>
+                    <h4>Ana García</h4>
+                    <span>Directora de Marketing en Tech Solutions</span>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/images/user2.png" alt="Foto de Usuario 2">
+                    <p>"La mejor inversión que hemos hecho para nuestro negocio. La automatización y los reportes son excepcionales."</p>
+                    <h4>Carlos Ruiz</h4>
+                    <span>CEO de Innova Labs</span>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/images/user3.png" alt="Foto de Usuario 3">
+                    <p>"Soporte técnico de primera y una plataforma robusta. Recomendado para cualquier empresa en crecimiento."</p>
+                    <h4>María López</h4>
+                    <span>Gerente de Ventas en Global Services</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>AtlasCRM</h3>
+                    <p>Simplificando la gestión de clientes para impulsar tu negocio.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#testimonials">Testimonios</a></li>
+                        <li><a href="login.html">Iniciar Sesión</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contacto</h3>
+                    <p><img src="assets/icons/icon-email.svg" alt="Email Icon"> info@atlascrm.com</p>
+                    <p><img src="assets/icons/icon-phone.svg" alt="Phone Icon"> +34 912 345 678</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Síguenos</h3>
+                    <a href="#"><img src="assets/icons/icon-facebook.svg" alt="Facebook Icon"></a>
+                    <a href="#"><img src="assets/icons/icon-twitter.svg" alt="Twitter Icon"></a>
+                    <a href="#"><img src="assets/icons/icon-linkedin.svg" alt="LinkedIn Icon"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AtlasCRM. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
 ```
