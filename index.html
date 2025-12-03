@@ -1,0 +1,140 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nimbus CRM</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #3c90f5;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.25rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      font-weight: 400;
+      opacity: 0.85;
+    }
+
+    .cta-button {
+      margin: 2rem auto;
+      display: block;
+      background-color: #3c90f5;
+      color: white;
+      border: none;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      width: max-content;
+    }
+
+    .cta-button:hover {
+      background-color: #316acc;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgb(60 144 245 / 0.2);
+      padding: 1.5rem;
+      flex: 1 1 250px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(60 144 245 / 0.3);
+    }
+
+    .card h3 {
+      margin-bottom: 0.75rem;
+      color: #3c90f5;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: auto;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nimbus CRM</h1>
+    <p>Gestiona tus clientes de forma inteligente</p>
+  </header>
+
+  <a href="#" class="cta-button">Solicita una demo</a>
+
+  <main>
+    <div class="card">
+      <h3>Seguimiento</h3>
+      <p>Mantén un control detallado de cada interacción con tus clientes.</p>
+    </div>
+    <div class="card">
+      <h3>Automatización</h3>
+      <p>Ahorra tiempo automatizando tareas repetitivas y procesos clave.</p>
+    </div>
+    <div class="card">
+      <h3>Reportes</h3>
+      <p>Analiza resultados y toma decisiones con insights claros y precisos.</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Nimbus CRM
+  </footer>
+</body>
+</html>
+```
