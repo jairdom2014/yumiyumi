@@ -2,117 +2,85 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AtlasCRM - Gestiona tus Clientes con Facilidad</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AtlasCRM - Gestión eficiente</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/images/logo.png" alt="AtlasCRM Logo">
-                </a>
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#features">Características</a></li>
-                    <li><a href="#testimonials">Testimonios</a></li>
-                    <li><a href="login.html" class="btn btn-primary">Iniciar Sesión</a></li>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="AtlasCRM Logo" />
+                <span>AtlasCRM</span>
+            </a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="login.html">Iniciar sesión</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Optimiza la Gestión de Clientes con AtlasCRM</h1>
-            <p>La solución perfecta para pequeñas y medianas empresas que buscan eficiencia y crecimiento.</p>
-            <a href="#" class="btn btn-secondary">Probar gratis</a>
-            <img src="assets/images/banner.png" alt="Banner AtlasCRM" class="hero-image">
-        </div>
-    </section>
+    <main>
+        <section class="banner">
+            <div class="container banner-content">
+                <h1>Potencia la gestión de tus clientes con AtlasCRM</h1>
+                <p>Optimiza tus procesos, incrementa ventas y fideliza clientes de forma sencilla.</p>
+                <a href="login.html" class="btn-primary">Probar gratis</a>
+            </div>
+        </section>
 
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Nuestras Características Clave</h2>
-            <div class="feature-grid">
-                <div class="feature-item">
-                    <img src="assets/icons/icon-gestion.svg" alt="Icono Gestión">
-                    <h3>Gestión de Contactos</h3>
-                    <p>Organiza y accede rápidamente a toda la información de tus clientes en un solo lugar.</p>
-                </div>
-                <div class="feature-item">
-                    <img src="assets/icons/icon-reportes.svg" alt="Icono Reportes">
-                    <h3>Reportes Personalizados</h3>
-                    <p>Obtén análisis detallados y toma decisiones estratégicas con informes a medida.</p>
-                </div>
-                <div class="feature-item">
-                    <img src="assets/icons/icon-colaboracion.svg" alt="Icono Colaboración">
-                    <h3>Colaboración en Equipo</h3>
-                    <p>Trabaja en conjunto con tu equipo, comparte información y mejora la productividad.</p>
-                </div>
+        <section class="features container">
+            <h2>Características destacadas</h2>
+            <div class="features-grid">
+                <article class="feature-item">
+                    <img src="assets/icons/gestion.svg" alt="Gestión de clientes" />
+                    <h3>Gestión completa de clientes</h3>
+                    <p>Administra y segmenta tus contactos fácilmente para campañas más efectivas.</p>
+                </article>
+                <article class="feature-item">
+                    <img src="assets/icons/reportes.svg" alt="Reportes avanzados" />
+                    <h3>Reportes avanzados</h3>
+                    <p>Visualiza datos claves y métricas para tomar decisiones basadas en información real.</p>
+                </article>
+                <article class="feature-item">
+                    <img src="assets/icons/automatizacion.svg" alt="Automatización" />
+                    <h3>Automatización de tareas</h3>
+                    <p>Automatiza recordatorios, seguimientos y flujos de trabajo para ganar tiempo.</p>
+                </article>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <h2>Lo que dicen nuestros clientes</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-item">
-                    <img src="assets/images/user1.png" alt="Foto de Usuario 1">
-                    <p>"AtlasCRM ha transformado la forma en que gestionamos nuestras relaciones con los clientes. ¡Increíblemente intuitivo!"</p>
-                    <h4>Ana García</h4>
-                    <span>Directora de Marketing en Tech Solutions</span>
-                </div>
-                <div class="testimonial-item">
-                    <img src="assets/images/user2.png" alt="Foto de Usuario 2">
-                    <p>"La mejor inversión que hemos hecho para nuestro negocio. La automatización y los reportes son excepcionales."</p>
-                    <h4>Carlos Ruiz</h4>
-                    <span>CEO de Innova Labs</span>
-                </div>
-                <div class="testimonial-item">
-                    <img src="assets/images/user3.png" alt="Foto de Usuario 3">
-                    <p>"Soporte técnico de primera y una plataforma robusta. Recomendado para cualquier empresa en crecimiento."</p>
-                    <h4>María López</h4>
-                    <span>Gerente de Ventas en Global Services</span>
-                </div>
+        <section class="testimonials container">
+            <h2>Lo que dicen nuestros usuarios</h2>
+            <div class="testimonials-grid">
+                <blockquote class="testimonial-item">
+                    <p>"AtlasCRM transformó la manera en la que gestiono mis clientes, ahora todo es más simple y efectivo."</p>
+                    <footer>- Ana R., Gerente de ventas</footer>
+                </blockquote>
+                <blockquote class="testimonial-item">
+                    <p>"Gracias a sus reportes claros y detallados, hemos aumentado nuestras ventas un 25% en seis meses."</p>
+                    <footer>- Carlos M., Director Comercial</footer>
+                </blockquote>
+                <blockquote class="testimonial-item">
+                    <p>"La automatización me ahorra horas cada semana, puedo enfocarme en lo que realmente importa."</p>
+                    <footer>- Laura S., Emprendedora</footer>
+                </blockquote>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section about">
-                    <h3>AtlasCRM</h3>
-                    <p>Simplificando la gestión de clientes para impulsar tu negocio.</p>
-                </div>
-                <div class="footer-section links">
-                    <h3>Enlaces Rápidos</h3>
-                    <ul>
-                        <li><a href="#features">Características</a></li>
-                        <li><a href="#testimonials">Testimonios</a></li>
-                        <li><a href="login.html">Iniciar Sesión</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section contact">
-                    <h3>Contacto</h3>
-                    <p><img src="assets/icons/icon-email.svg" alt="Email Icon"> info@atlascrm.com</p>
-                    <p><img src="assets/icons/icon-phone.svg" alt="Phone Icon"> +34 912 345 678</p>
-                </div>
-                <div class="footer-section social">
-                    <h3>Síguenos</h3>
-                    <a href="#"><img src="assets/icons/icon-facebook.svg" alt="Facebook Icon"></a>
-                    <a href="#"><img src="assets/icons/icon-twitter.svg" alt="Twitter Icon"></a>
-                    <a href="#"><img src="assets/icons/icon-linkedin.svg" alt="LinkedIn Icon"></a>
-                </div>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="mailto:contacto@atlascrm.com">Contacto</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 AtlasCRM. Todos los derechos reservados.</p>
-            </div>
+            <p>&copy; 2024 AtlasCRM. Todos los derechos reservados.</p>
         </div>
     </footer>
 
